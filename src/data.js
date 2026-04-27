@@ -64,6 +64,7 @@ export const REPLAYS = {
     '../replays/Jornada1-MinitamaninVSCorrea-Game2.html',
   ],
   j1_m1: [
+    '../replays/Jornada1-LituanasVSSmegama-Game1.html',
     '../replays/Jornada1-LituanasVSSmegama-Game2.html',
   ],
   j2_m0: [],

@@ -1,11 +1,10 @@
-import { NavLink, Routes, Route, Navigate, HashRouter } from 'react-router-dom'
+import { NavLink, Routes, Route, Navigate } from 'react-router-dom'
 import Standings from './components/Standings'
 import History from './components/History'
 import Upcoming from './components/Upcoming'
 
 export default function App() {
   return (
-    <HashRouter>
     <div className="app">
       <header className="header">
         <h1>III <span>Copa</span> Pistón</h1>
@@ -29,6 +28,5 @@ export default function App() {
         <Route path="/proximas" element={<Upcoming />} />
       </Routes>
     </div>
-    </HashRouter>
   )
 }

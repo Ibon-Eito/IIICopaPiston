@@ -2,7 +2,7 @@
   "name": "pokemon-liga",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://ibon.github.io/IIICopaPiston",
+  "homepage": "https://ibon-eito.github.io/IIICopaPiston",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -2,6 +2,7 @@ import { NavLink, Routes, Route, Navigate } from 'react-router-dom'
 import Standings from './components/Standings'
 import History from './components/History'
 import Upcoming from './components/Upcoming'
+import Statistics from './components/Statistics'
 
 export default function App() {
   return (
@@ -20,12 +21,16 @@ export default function App() {
         <NavLink to="/proximas" className={({ isActive }) => isActive ? 'active' : ''}>
           Próximas jornadas
         </NavLink>
+        <NavLink to="/estadisticas" className={({ isActive }) => isActive ? 'active' : ''}>
+          Estadísticas
+        </NavLink>
       </nav>
       <Routes>
         <Route path="/" element={<Navigate to="/clasificacion" replace />} />
         <Route path="/clasificacion" element={<Standings />} />
         <Route path="/historial" element={<History />} />
         <Route path="/proximas" element={<Upcoming />} />
+        <Route path="/estadisticas" element={<Statistics />} />
       </Routes>
     </div>
   )

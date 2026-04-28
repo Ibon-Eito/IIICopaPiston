@@ -78,3 +78,26 @@ export const REPLAYS = {
   j6_m0: [],
   j6_m1: [],
 }
+
+// ─────────────────────────────────────────────────────────────
+//  POKÉMON - ESTADÍSTICAS
+//  Cada pokémon tiene un mote, nombre real, equipo y kills
+// ─────────────────────────────────────────────────────────────
+export const POKEMONS = [
+  { nickname: 'Pintor austriaco', name: 'Thievul', team: 'mini', kills: 3 },
+  { nickname: 'Negrito ojos claros', name: 'Gyarados', team: 'correa', kills: 3 },
+  { nickname: 'Vertedero', name: 'Ariados', team: 'correa', kills: 2 },
+  { nickname: 'Gótico culón', name: 'Clodsire', team: 'mini', kills: 1 },
+  { nickname: 'Chochona', name: 'Torracat', team: 'correa', kills: 2 },
+  { nickname: 'Manolé', name: 'Gourgeist', team: 'correa', kills: 1 },
+  { nickname: 'Rosa Melano', name: 'Eldegoss', team: 'correa', kills: 1 },
+  { nickname: 'Cladita', name: 'Togetic', team: 'correa', kills: 2 },
+  { nickname: 'Cipote', name: 'Wobbuffet', team: 'smegma', kills: 1 },
+  { nickname: 'Roro', name: 'Azumarill', team: 'smegma', kills: 1 },
+  { nickname: 'Mega F', name: 'Vibrava', team: 'smegma', kills: 1 },
+  { nickname: 'Cándida', name: 'Morelull', team: 'smegma', kills: 2 },
+  { nickname: 'NO ME JODAS', name: 'Herdier', team: 'lituanas', kills: 2 },
+  { nickname: 'Pangolín del Chino', name: 'Sandslash', team: 'lituanas', kills: 1 },
+  { nickname: 'Pilila', name: 'Gyarados', team: 'lituanas', kills: 5 },
+  { nickname: 'Hot Pot', name: 'Pignite', team: 'lituanas', kills: 4 },
+]

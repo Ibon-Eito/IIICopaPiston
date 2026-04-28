@@ -43,9 +43,17 @@ export default function Standings() {
         <tbody>
           {rows.map((r, i) => {
             const t = TEAMS[r.id]
+            // Si es el primero o diferente del anterior, mostrar posición; si no, mostrar "-"
+            const showPosition = i === 0 || (
+              rows[i-1].pts !== r.pts ||
+              (rows[i-1].gf - rows[i-1].ga) !== (r.gf - r.ga) ||
+              rows[i-1].gf !== r.gf
+            )
+            const rankDisplay = showPosition ? i + 1 : '-'
+            
             return (
               <tr key={r.id}>
-                <td className={`rank-cell${i === 0 ? ' gold' : ''}`}>{i + 1}</td>
+                <td className={`rank-cell${i === 0 ? ' gold' : ''}`}>{rankDisplay}</td>
                 <td>
                   <span className="team-pill">
                     <span className="team-dot" style={{ background: t.color }} />

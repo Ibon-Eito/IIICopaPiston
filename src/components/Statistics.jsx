@@ -50,8 +50,8 @@ export default function Statistics() {
       <table>
         <thead>
           <tr>
-            <th>Nombre</th>
             <th>Mote</th>
+            <th>Nombre</th>
             <th>Equipo</th>
             <th>Kills</th>
             <th>Imagen</th>

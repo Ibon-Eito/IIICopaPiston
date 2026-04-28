@@ -89,7 +89,7 @@ export const POKEMONS = [
   { nickname: 'Vertedero', name: 'Ariados', team: 'correa', kills: 2 },
   { nickname: 'Gótico culón', name: 'Clodsire', team: 'mini', kills: 1 },
   { nickname: 'Chochona', name: 'Torracat', team: 'correa', kills: 2 },
-  { nickname: 'Manolé', name: 'Gourgeist', team: 'correa', kills: 1 },
+  { nickname: 'Manolé', name: 'Gourgeist-average', team: 'correa', kills: 1 },
   { nickname: 'Rosa Melano', name: 'Eldegoss', team: 'correa', kills: 1 },
   { nickname: 'Cladita', name: 'Togetic', team: 'correa', kills: 2 },
   { nickname: 'Cipote', name: 'Wobbuffet', team: 'smegma', kills: 1 },

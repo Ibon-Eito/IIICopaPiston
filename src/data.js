@@ -33,8 +33,8 @@ export const RESULTS = {
   j1_m1: [0,2], // smegma vs lituanas
 
   // Jornada 2
-  j2_m0: null,
-  j2_m1: null,
+  j2_m0: [2,0],
+  j2_m1: [2,0],
 
   // Jornada 3
   j3_m0: null,

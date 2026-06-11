@@ -67,8 +67,14 @@ export const REPLAYS = {
     '/IIICopaPiston/replays/Jornada1-LituanasVSSmegama-Game1.html',
     '/IIICopaPiston/replays/Jornada1-LituanasVSSmegama-Game2.html',
   ],
-  j2_m0: [],
-  j2_m1: [],
+  j2_m0: [
+    '/IIICopaPiston/replays/Jornada2-CorreaVSSmegma-Game1.html',
+    '/IIICopaPiston/replays/Jornada2-CorreaVSSmegma-Game2.html',
+  ],
+  j2_m1: [
+    '/IIICopaPiston/replays/Jornada2-MinitamaninVSLituanas-Game1.html',
+    '/IIICopaPiston/replays/Jornada2-MinitamaninVSLituanas-Game2.html',
+  ],
   j3_m0: [],
   j3_m1: [],
   j4_m0: [],
@@ -85,19 +91,34 @@ export const REPLAYS = {
 // ─────────────────────────────────────────────────────────────
 export const POKEMONS = [
   { nickname: 'Pintor austriaco', name: 'Thievul', team: 'mini', kills: 3 },
+  { nickname: 'Gótico culón', name: 'Clodsire', team: 'mini', kills: 2 },
+  { nickname: 'Folio', name: 'Mantine', team: 'mini', kills: 6 },
+  { nickname: 'Cata de vinos', name: 'Meowscarada', team: 'mini', kills: 2 },
+  { nickname: 'Persian', name: 'Persian', team: 'mini', kills: 1 },
+
   { nickname: 'Negrito ojos claros', name: 'Gyarados', team: 'correa', kills: 3 },
   { nickname: 'Vertedero', name: 'Ariados', team: 'correa', kills: 2 },
-  { nickname: 'Gótico culón', name: 'Clodsire', team: 'mini', kills: 1 },
-  { nickname: 'Chochona', name: 'Torracat', team: 'correa', kills: 2 },
+  { nickname: 'Chochona', name: 'Incineroar', team: 'correa', kills: 4 },
   { nickname: 'Manolé', name: 'Gourgeist-average', team: 'correa', kills: 1 },
   { nickname: 'Rosa Melano', name: 'Eldegoss', team: 'correa', kills: 1 },
   { nickname: 'Cladita', name: 'Togetic', team: 'correa', kills: 2 },
+  { nickname: 'Top manta', name: 'Obstagoon', team: 'correa', kills: 3 },
+  { nickname: 'TuTanKabron', name: 'Cofagrigus', team: 'correa', kills: 4 },
+  { nickname: 'Messieur pollon', name: 'Decidueye', team: 'correa', kills: 2 },
+  { nickname: 'Las musas', name: 'Gardevoir', team: 'correa', kills: 1 },
+
   { nickname: 'Cipote', name: 'Wobbuffet', team: 'smegma', kills: 1 },
   { nickname: 'Roro', name: 'Azumarill', team: 'smegma', kills: 1 },
   { nickname: 'Mega F', name: 'Vibrava', team: 'smegma', kills: 1 },
   { nickname: 'Cándida', name: 'Morelull', team: 'smegma', kills: 2 },
+  { nickname: 'Elena', name: 'Staraptor', team: 'smegma', kills: 1 },
+  { nickname: 'Andrea coñona', name: 'Togekiss', team: 'smegma', kills: 2 },
+  { nickname: 'Alex Marquez', name: 'Manectric', team: 'smegma', kills: 1 },
+  { nickname: 'Atratus', name: 'Sceptile', team: 'smegma', kills: 1 },
+
   { nickname: 'NO ME JODAS', name: 'Herdier', team: 'lituanas', kills: 2 },
   { nickname: 'Pangolín del Chino', name: 'Sandslash', team: 'lituanas', kills: 1 },
   { nickname: 'Pilila', name: 'Gyarados', team: 'lituanas', kills: 5 },
   { nickname: 'Hot Pot', name: 'Pignite', team: 'lituanas', kills: 4 },
+  { nickname: 'Patek robado', name: 'Cofagrigus', team: 'lituanas', kills: 1 },
 ]

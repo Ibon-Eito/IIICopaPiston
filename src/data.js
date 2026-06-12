@@ -94,7 +94,7 @@ export const POKEMONS = [
   { nickname: 'Gótico culón', name: 'Clodsire', team: 'mini', kills: 2 },
   { nickname: 'Folio', name: 'Mantine', team: 'mini', kills: 6 },
   { nickname: 'Cata de vinos', name: 'Meowscarada', team: 'mini', kills: 2 },
-  { nickname: 'Persian', name: 'Persian', team: 'mini', kills: 1 },
+  { nickname: 'Lavadora', name: 'Persian', team: 'mini', kills: 1 },
 
   { nickname: 'Negrito ojos claros', name: 'Gyarados', team: 'correa', kills: 3 },
   { nickname: 'Vertedero', name: 'Ariados', team: 'correa', kills: 2 },

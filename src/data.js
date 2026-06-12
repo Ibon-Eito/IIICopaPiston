@@ -104,7 +104,7 @@ export const POKEMONS = [
   { nickname: 'Cladita', name: 'Togetic', team: 'correa', kills: 2 },
   { nickname: 'Top manta', name: 'Obstagoon', team: 'correa', kills: 3 },
   { nickname: 'TuTanKabron', name: 'Cofagrigus', team: 'correa', kills: 4 },
-  { nickname: 'Messieur pollon', name: 'Decidueye', team: 'correa', kills: 2 },
+  { nickname: 'Messieur pollon', name: 'Decidueye-hisui', team: 'correa', kills: 2 },
   { nickname: 'Las musas', name: 'Gardevoir', team: 'correa', kills: 1 },
 
   { nickname: 'Cipote', name: 'Wobbuffet', team: 'smegma', kills: 1 },
